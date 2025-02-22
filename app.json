@@ -19,7 +19,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "versionCode": 1,
+      "permissions": ["android.permission.INTERNET"],
+      "package": "com.paginaslm.appsspapro"
     },
     "web": {
       "favicon": "./assets/favicon.png"

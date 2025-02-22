@@ -71,22 +71,15 @@ export function LoginForm(props) {
         onChangeText={(text) => setPassword(text)}
       />
       <Button
-        mode="contained"
         color="#5ac343"
         onPress={handleSubmit}
         loading={isLoading}
         title="Entrar" />
         <View style={form.separator} />
       <Button
-        mode="text"
-        style={form.btnText}
-        labelStyle={form.btnTextLabel}
         onPress={showRegister}
         title="Registrarse" />
       <Button
-        mode="text"
-        style={form.btnText}
-        labelStyle={form.btnTextLabel}
         onPress={showForgot}
         title="Olvido contraseña ?" />
     </View>

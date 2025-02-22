@@ -58,7 +58,6 @@ export function ForgotForm(props) {
       <View style={form.separator} />  
       <Button
         mode="text"
-        style={form.btnText}
         labelStyle={form.btnTextLabel}
         onPress={showForgot}
         title="Login" />

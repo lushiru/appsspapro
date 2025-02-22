@@ -106,16 +106,12 @@ export function RegisterForm(props) {
         value={password_confirmation}
       />
       <Button
-        mode="contained"
         color="#5ac343"
         onPress={handleSubmit}
         loading={isLoading}
         title="Registrate" />
       <View style={form.separator} />
       <Button
-        mode="text"
-        style={form.btnText}
-        labelStyle={form.btnTextLabel}
         onPress={showLogin}
         title="Iniciar sesión" />
     </View>
